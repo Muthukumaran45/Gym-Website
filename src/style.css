@@ -1,0 +1,559 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Protest+Strike&family=Rubik+Doodle+Shadow&display=swap');
+
+/* explore program font  */
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+/* navbar-brand font style link */
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+
+
+
+
+
+/* ------------------   Navbar start  -------------------------*/
+#navbar_brand {
+  color: #ffd277;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7rem;
+}
+
+
+.home_h1 h1{
+
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 6rem;
+  padding-left: 3rem;
+}
+
+.home_h1 p{
+  padding-left: 3rem;
+}
+
+.pricing_heading {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 3rem;
+  color: #292724;
+}
+
+
+
+/* -------------------------------------navbar button start*/
+
+.home_nav {
+  margin-right: 1rem;
+  width: 110px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #77530a, #ffd277, #77530a, #77530a, #ffd277, #77530a);
+  background-size: 250%;
+  background-position: left;
+  color: #ffd277;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+.home_nav::before {
+  position: absolute;
+  content: "Home";
+  color: #ffd277;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  height: 90%;
+  border-radius: 8px;
+  transition-duration: 1s;
+  background-color: rgba(0, 0, 0, 0.842);
+  background-size: 200%;
+}
+
+.home_nav:hover {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.home_nav:hover::before {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.home_nav:active {
+  transform: scale(0.95);
+}
+
+
+
+
+
+
+/* navbar pricing btn */
+
+.pricing_nav {
+  margin-right: 1rem;
+  width: 110px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #77530a, #ffd277, #77530a, #77530a, #ffd277, #77530a);
+  background-size: 250%;
+  background-position: left;
+  color: #ffd277;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+.pricing_nav::before {
+  position: absolute;
+  content: "Pricing";
+  color: #ffd277;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  height: 90%;
+  border-radius: 8px;
+  transition-duration: 1s;
+  background-color: rgba(0, 0, 0, 0.842);
+  background-size: 200%;
+}
+
+.pricing_nav:hover {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.pricing_nav:hover::before {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.pricing_nav:active {
+  transform: scale(0.95);
+}
+
+
+
+
+
+
+/* navbar_btn_contact */
+
+.contact_nav {
+  width: 110px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #77530a, #ffd277, #77530a, #77530a, #ffd277, #77530a);
+  background-size: 250%;
+  background-position: left;
+  color: #ffd277;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+.contact_nav::before {
+  position: absolute;
+  content: "Contact Us";
+  color: #ffd277;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  height: 90%;
+  border-radius: 8px;
+  transition-duration: 1s;
+  background-color: rgba(0, 0, 0, 0.842);
+  background-size: 200%;
+}
+
+.contact_nav:hover {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.contact_nav:hover::before {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.contact_nav:active {
+  transform: scale(0.95);
+}
+
+
+
+/* -------------------------------------navbar button end*/
+
+
+
+/* explore our program start */
+.program_btn{
+  border: none;
+  background: none;
+  padding-left: 0;
+  color: red;
+  text-decoration: none;
+}
+
+.explore_program .heading{
+  color: rgb(50, 49, 47);
+  font-family: "Anta", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+.explore_program h5{
+  font-family: "Anta", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.4rem;
+
+}
+
+.program_card{
+  border: 2px solid rgb(240, 240, 240);
+  box-shadow:7px 7px 5px rgb(196, 196, 196) ;
+}
+
+
+
+
+/* -------------------------------------pricing button start */
+
+
+.pricing_btn1 {
+  width: 110px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #77530a, #ffd277, #77530a, #77530a, #ffd277, #77530a);
+  background-size: 250%;
+  background-position: left;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+.pricing_btn1::before {
+  position: absolute;
+  content: "800 -Rs";
+  /* color: #ffd277; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  height: 90%;
+  border-radius: 8px;
+  transition-duration: 1s;
+  background-color: white;
+  background-size: 200%;
+}
+
+.pricing_btn1:hover {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.pricing_btn1:hover::before {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.pricing_btn1:active {
+  transform: scale(0.95);
+}
+
+
+
+
+
+
+
+
+.pricing_btn2 {
+  width: 110px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #77530a, #ffd277, #77530a, #77530a, #ffd277, #77530a);
+  background-size: 250%;
+  background-position: left;
+  /* color: #ffd277; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+.pricing_btn2::before {
+  position: absolute;
+  content: "2400 -Rs";
+  /* color: #ffd277; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  height: 90%;
+  border-radius: 8px;
+  transition-duration: 1s;
+  background-color: white;
+  background-size: 200%;
+}
+
+.pricing_btn2:hover {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.pricing_btn2:hover::before {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.pricing_btn2:active {
+  transform: scale(0.95);
+}
+
+
+
+
+
+
+
+
+
+
+.pricing_btn3 {
+  width: 110px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #77530a, #ffd277, #77530a, #77530a, #ffd277, #77530a);
+  background-size: 250%;
+  background-position: left;
+  /* color: #ffd277; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+.pricing_btn3::before {
+  position: absolute;
+  content: "3600 -Rs";
+  /* color: #ffd277; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  height: 90%;
+  border-radius: 8px;
+  transition-duration: 1s;
+  background-color: white;
+  background-size: 200%;
+}
+
+.pricing_btn3:hover {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.pricing_btn3:hover::before {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.pricing_btn3:active {
+  transform: scale(0.95);
+}
+
+
+
+
+.pricing_btn4 {
+  width: 110px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #77530a, #ffd277, #77530a, #77530a, #ffd277, #77530a);
+  background-size: 250%;
+  background-position: left;
+  /* color: #ffd277; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+.pricing_btn4::before {
+  position: absolute;
+  content: "4400 -Rs";
+  /* color: #ffd277; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  height: 90%;
+  border-radius: 8px;
+  transition-duration: 1s;
+  background-color: white;
+  background-size: 200%;
+}
+
+.pricing_btn4:hover {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.pricing_btn4:hover::before {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.pricing_btn4:active {
+  transform: scale(0.95);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------   Navbar End  -------------------------*/
+
+
+
+
+
+
+
+/* -------------------contact page start */
+
+.contact-form h2{
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 3rem;
+  color: #282623;
+}
+
+.form-control{
+  border: 1px solid rgb(201, 199, 199);
+    box-shadow:7px 7px 5px rgb(196, 196, 196) ;
+
+}
+
+.contact_btn{
+  box-shadow: 5px 5px 10px rgb(242, 242, 242);
+}
+
+
+/* -------------------contact page end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------   Footer section start  -------------- */
+
+
+.footer {
+  padding: 50px 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.footer h3 {
+  color: #ffd277;
+
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer p,
+.footer ul {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer span{
+  padding-right: 1rem;
+}
+
+
+
+/* ------------------   Footer section end  -------------- */
+
+
+
